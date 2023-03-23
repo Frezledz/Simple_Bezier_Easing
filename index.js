@@ -44,13 +44,3 @@ var getapproximate_ease = function (p1, p2, v, accuracy) {
         i /= 2;
     }
 };
-getbezierpos({ x: 0.8, y: 0 }, { x: 0.2, y: 1 }, 0.2);
-/*
-import * as fs from 'fs';
-let val = "";
-for(let i=0;i<100;i++){
-    const value = getapproximate_ease({ x: 1, y: 0 }, { x: 0, y: 1 }, i/100, 100);
-    val=val+value.y+",";
-    
-}
-fs.writeFileSync("a.txt",val);*/ 
